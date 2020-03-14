@@ -1,1 +1,1 @@
-command WRLD execute "echo Hello"
+command! -nargs=1 Nzt lua require'nzt'.newZettel(<q-args>)
